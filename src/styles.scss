@@ -1,1 +1,75 @@
+:root{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@400;700&display=swap');
+    /* width */
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px lightgray; 
+        border-radius: 10px;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: gray; 
+        border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: darkgray; 
+    }
+    --primary-color: #1D87C9;
+    --primary-purple: #9C27B0;
+    --primary-teal: #009688;
+    --primary-red: #F65858;
+    --primary-green: #8BC34A;
+    --primary-yellow: #FFA41E;
+
+    --primary-grad: linear-gradient(302deg, #1D87C9 0%, #36C6D9 100%) 0% 0% no-repeat padding-box;
+    --grad-teal: linear-gradient(301deg, #009688 0%, #4EB4CE 100%) 0% 0% no-repeat padding-box;
+    --grad-red: linear-gradient(122deg, #FC8F66 0%, #F65858 100%) 0% 0% no-repeat padding-box;
+    --grad-green: linear-gradient(303deg, #8BC34A 0%, #89EB90 100%) 0% 0% no-repeat padding-box;
+    --grad-purple: linear-gradient(302deg, #9C27B0 0%, #D64F9C 100%) 0% 0% no-repeat padding-box;
+    --grad-yellow: linear-gradient(301deg, #FFA41E 0%, #FFDA60 100%) 0% 0% no-repeat padding-box;
+
+    --ease: cubic-bezier(.98,.01,0,.98);
+    --small: 1100px;
+
+    body{
+        background: #F9F9F9;
+    }
+    h1, h2, h3, h4, h5 {
+        font-family: 'Montserrat', sans-serif !important;
+    }
+    p, a, span, div{
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .grad-yellow{
+        background: var(--grad-yellow);
+    }
+
+    .grad-teal{
+        background: var(--grad-teal);
+    }
+
+    .grad-red{
+        background: var(--grad-red);
+    }
+
+    .grad-green{
+        background: var(--grad-green);
+    }
+
+    .grad-purple{
+        background: var(--grad-purple);
+    }
+
+}
+
+
 /* You can add global styles to this file, and also import other style files */
