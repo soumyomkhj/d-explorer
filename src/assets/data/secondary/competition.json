@@ -1,0 +1,34 @@
+{
+    "title": "Competition",
+    "icon": "https://raw.githubusercontent.com/soumyomkhj/enrole-process/master/src/assets/img/icons/questions.svg",
+    "summary": "Who else is doing the same thing, solving similar type of problem? There must be many people who did something atleast remotely similar. How is it conneted to the problem you are solving? We also need to position our self as how we are doing it better?",
+    "before": "We need to have very basic Idea about the project, having discussion with the client and knowing them would be helpful.",
+    "after": "You will have clear Idea about where the project is positioned, with respect to the market",
+    "key_steps": [
+        "Step 1 is here",
+        "Step 2 is here",
+        "Step 3 is here",
+        "Step 4 is here",
+        "Step 5 is here"
+    ],
+    "tools": ["is", "xd", "ai", "ps"],
+    "videos": [
+        "https://www.youtube.com/watch?v=-Ee08uFurok",
+        "https://www.youtube.com/watch?v=iv92F6ElPS8",
+        "https://www.youtube.com/watch?v=yAVrDAYQ-ss"
+    ],
+    "resources": [
+        {
+            "title": "Freepik",
+            "url": "https://freepik.com"
+        },
+        {
+            "title": "Facebook",
+            "url": "https://facebook.com"
+        },
+        {
+            "title": "Instagram",
+            "url": "https://instagram.com"
+        }
+    ]
+}

@@ -1,26 +1,24 @@
 <app-nav-bar> </app-nav-bar>
 <div class="container">
     <div class="header">
-        <h1>Problem</h1>
+        <h1>{{pageData?.title}}</h1>
         <img src="../../assets/img/icons/close.svg" alt="" class="icon"  [routerLink]="['/course']">
-        Narwhal enamel pin cred YOLO taiyaki. Whatever woke mustache intelligentsia af. Adaptogen cloud bread taiyaki slow-carb polaroid fanny pack heirloom XOXO vexillologist.
+        {{pageData?.summary}}
     </div>
     <div class="content col-sm-12 col-md-6">
         <div class="before">
             <h2>Before</h2>
-            Narwhal enamel pin cred YOLO taiyaki. Whatever woke mustache intelligentsia af. Adaptogen cloud bread taiyaki slow-carb polaroid fanny pack heirloom XOXO vexillologist.
+            {{pageData?.before}}
         </div>
         <div class="after">
             <h2>After</h2>
-            Narwhal enamel pin cred YOLO taiyaki. Whatever woke mustache intelligentsia af. Adaptogen cloud bread taiyaki slow-carb polaroid fanny pack heirloom XOXO vexillologist.
+            {{pageData?.after}}
         </div>
         <div class="steps">
             <h2>Steps</h2>
-            <p>Narwhal enamel pin cred YOLO taiyaki.</p>
+            <p>Some heading text with the step</p>
             <ol>
-                <li>Narwhal enamel pin cred YOLO taiyaki. Whatever woke mustache intelligentsia af. Adaptogen cloud bread taiyaki slow-carb polaroid fanny pack heirloom XOXO vexillologist.</li>
-                <li>Narwhal enamel pin cred YOLO taiyaki. Whatever woke mustache intelligentsia af. Adaptogen cloud bread taiyaki slow-carb polaroid fanny pack heirloom XOXO vexillologist.</li>
-                <li>Narwhal enamel pin cred YOLO taiyaki. Whatever woke mustache intelligentsia af. Adaptogen cloud bread taiyaki slow-carb polaroid fanny pack heirloom XOXO vexillologist.</li>
+                <li *ngFor="let step of pageData?.key_steps">{{step}}</li>
             </ol>
         </div>
     </div>
@@ -28,52 +26,27 @@
         <div class="tools">
             <h2>Tools</h2>
             <div class="cards-wrapper">
-                <div class="card">
-                    <a href="/tool">
-                        <img src="../../assets/img/tools/ai.png" alt="">
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="/tool">
-                        <img src="../../assets/img/tools/xd.png" alt="">
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="/tool">
-                        <img src="../../assets/img/tools/cd.png" alt="">
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="/tool">
-                        <img src="../../assets/img/tools/ps.webp" alt="">
-                    </a>
+                <div *ngFor="let tool of pageData?.tools" class="card">
+                    <div>
+                        <img [src]="getToolImg(tool)" alt="">
+                    </div>
                 </div>
             </div>
         </div>
         <div class="rel-vid">
             <h2>Related Videos</h2>
             <div class="cards-wrapper">
-                <a class="card" href="#">
-                    <img src="https://img.youtube.com/vi/YqQx75OPRa0/0.jpg" alt="">
-                </a>
-                <a class="card" href="#">
-                    <img src="https://img.youtube.com/vi/YqQx75OPRa0/0.jpg" alt="">
-                </a>
-                <a class="card" href="#">
-                    <img src="https://img.youtube.com/vi/YqQx75OPRa0/0.jpg" alt="">
+                <a *ngFor="let url of pageData?.videos" class="card" [href]="url" target="_blank">
+                    <img [src]="videoThumbnail(url)">
                 </a>
             </div>
         </div>
         <div class="resources">
             <h2>Resources</h2>
             <div class="cards-wrapper">
-                <div class="card"><a href="#">Freepik</a></div>
-                <div class="card"><a href="#">Freepik</a></div>
-                <div class="card"><a href="#">Freepik</a></div>
-                <div class="card"><a href="#">Freepik</a></div>
-                <div class="card"><a href="#">Freepik</a></div>
-                <div class="card"><a href="#">Freepik</a></div>
-                <div class="card"><a href="#">Freepik</a></div>
+                <div *ngFor="let item of pageData?.resources" class="card">
+                    <a [href]="item.url" target="_blank">{{item.title}}</a>
+                </div>
             </div>
         </div>
     </div>

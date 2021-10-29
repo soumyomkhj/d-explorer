@@ -1,4 +1,4 @@
-<app-nav-bar> </app-nav-bar>
+<app-nav-bar></app-nav-bar>
 <div class="cr-con">
 	<div class="course">
 		<div class="devider hidden-sm"></div>
@@ -9,21 +9,17 @@
 				<div class="progress"><span>4</span>/ 5 read</div>
 			</div>
 			<div class="cards-wrapper">
-				<div class="card" [routerLink]="['/step']">
+				<div class="card" (click)="goToContent('secondary', 'context')">
 					<img src="../../assets/img/icons/happy.svg" alt=""  class="icon">
-					Motto
+					Context
 				</div>
-				<div class="card" [routerLink]="['/step']">
+				<div class="card" (click)="goToContent('secondary', 'competition')">
 					<img src="../../assets/img/icons/questions.svg" alt=""  class="icon">
-					Motto
+					Competition
 				</div>
 				<div class="card" [routerLink]="['/step']">
 					<img src="../../assets/img/icons/flag.svg" alt=""  class="icon">
-					Motto
-				</div>
-				<div class="card" [routerLink]="['/step']">
-					<img src="../../assets/img/icons/questions.svg" alt=""  class="icon">
-					Motto
+					Tone
 				</div>
 			</div>
 		</div>
@@ -37,17 +33,17 @@
 
 		<div class="step-container">
 			<div class="card-head">
-				<div class="step-title">Secondary Research</div>
+				<div class="step-title">Primary Research</div>
 				<div class="progress"><span>4</span>/ 5 read</div>
 			</div>
 			<div class="cards-wrapper">
 				<div class="card">
 					<img src="../../assets/img/icons/happy.svg" alt=""  class="icon">
-					Motto
+					User Goal
 				</div>
 				<div class="card">
 					<img src="../../assets/img/icons/questions.svg" alt=""  class="icon">
-					Motto
+					Persona
 				</div>
 			</div>
 		</div>
@@ -61,21 +57,17 @@
 		
 		<div class="step-container">
 			<div class="card-head">
-				<div class="step-title">Secondary Research</div>
+				<div class="step-title">Analyze</div>
 				<div class="progress"><span>4</span>/ 5 read</div>
 			</div>
 			<div class="cards-wrapper">
 				<div class="card">
 					<img src="../../assets/img/icons/happy.svg" alt=""  class="icon">
-					Motto
+					Findings
 				</div>
 				<div class="card">
 					<img src="../../assets/img/icons/questions.svg" alt=""  class="icon">
-					Motto
-				</div>
-				<div class="card">
-					<img src="../../assets/img/icons/flag.svg" alt=""  class="icon">
-					Motto
+					Opportunities
 				</div>
 			</div>
 		</div>
@@ -89,25 +81,21 @@
 		
 		<div class="step-container">
 			<div class="card-head">
-				<div class="step-title">Secondary Research</div>
+				<div class="step-title">Ideate</div>
 				<div class="progress"><span>4</span>/ 5 read</div>
 			</div>
 			<div class="cards-wrapper">
 				<div class="card">
 					<img src="../../assets/img/icons/happy.svg" alt=""  class="icon">
-					Motto
+					Architecture
 				</div>
 				<div class="card">
 					<img src="../../assets/img/icons/questions.svg" alt=""  class="icon">
-					Motto
+					Wireframe
 				</div>
 				<div class="card">
 					<img src="../../assets/img/icons/flag.svg" alt=""  class="icon">
-					Motto
-				</div>
-				<div class="card">
-					<img src="../../assets/img/icons/questions.svg" alt=""  class="icon">
-					Motto
+					Stylize
 				</div>
 			</div>
 		</div>
@@ -121,25 +109,39 @@
 		
 		<div class="step-container">
 			<div class="card-head">
-				<div class="step-title">Secondary Research</div>
+				<div class="step-title">Design</div>
 				<div class="progress"><span>4</span>/ 5 read</div>
 			</div>
 			<div class="cards-wrapper">
 				<div class="card">
 					<img src="../../assets/img/icons/happy.svg" alt=""  class="icon">
-					Motto
+					Hi-Fi
 				</div>
 				<div class="card">
 					<img src="../../assets/img/icons/questions.svg" alt=""  class="icon">
-					Motto
+					Mockup
 				</div>
+			</div>
+		</div>
+
+		<div class="big-button">
+			<img src="../../assets/img/icons/brush.svg" alt=""  class="icon">
+			Try Yourself
+		</div>
+
+		<div class="step-container">
+			<div class="card-head">
+				<div class="step-title">Test</div>
+				<div class="progress"><span>4</span>/ 5 read</div>
+			</div>
+			<div class="cards-wrapper">
 				<div class="card">
-					<img src="../../assets/img/icons/flag.svg" alt=""  class="icon">
-					Motto
+					<img src="../../assets/img/icons/happy.svg" alt=""  class="icon">
+					Performance
 				</div>
 				<div class="card">
 					<img src="../../assets/img/icons/questions.svg" alt=""  class="icon">
-					Motto
+					Think Aloud
 				</div>
 			</div>
 		</div>

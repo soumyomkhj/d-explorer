@@ -54,11 +54,11 @@ $color: #FFA41E;
         
         li {
             counter-increment: my-awesome-counter;
-            margin-top: -30px;
+            // margin-top: -30px;
             padding: 0px 120px 0px 0px;
             @media screen and (max-width: $small) {
                 width: 70vw;
-                margin-top: -30px;
+                // margin-top: -30px;
                 padding: 0px;
             }
             transform: translate(80px, -60px);
@@ -112,6 +112,8 @@ $color: #FFA41E;
         height: 80px;
         width: 80px;
         img{
+            margin-top: 30px;
+            margin-left: 4px;
             height: 80px;
             vertical-align: middle;
         }
