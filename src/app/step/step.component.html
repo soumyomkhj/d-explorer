@@ -1,8 +1,9 @@
 <app-nav-bar> </app-nav-bar>
 <div class="container">
     <div class="header">
-        <h1>{{pageData?.title}}</h1>
-        <img src="../../assets/img/icons/close.svg" alt="" class="icon"  [routerLink]="['/course']">
+        <img src="{{pageData?.icon}}" class="head-icon" alt=""><h1 style="display:inline-block">{{pageData?.title}}</h1>
+        <br>
+        <img src="../../assets/img/icons/close.svg" alt=""  data-ng-include class="icon"  [routerLink]="['/course']">
         {{pageData?.summary}}
     </div>
     <div class="content col-sm-12 col-md-6">
@@ -16,15 +17,17 @@
         </div>
         <div class="steps">
             <h2>Steps</h2>
-            <p>Some heading text with the step</p>
-            <ol>
-                <li *ngFor="let step of pageData?.key_steps">{{step}}</li>
-            </ol>
+            <div class="step-card">
+                <div *ngFor="let step of pageData?.key_steps">
+                    <img [src]="step.img" alt="">
+                    {{step.text}}
+                </div>
+            </div>
         </div>
     </div>
     <div class="content col-sm-12 col-md-6">
         <div class="tools">
-            <h2>Tools</h2>
+            <h2>Choose Your Tool</h2>
             <div class="cards-wrapper">
                 <div *ngFor="let tool of pageData?.tools" class="card">
                     <div>

@@ -15,6 +15,9 @@ $color: #FFA41E;
         right: 30px;
         cursor: pointer;
         position: absolute;
+        @media screen and (min-width: $small) {
+            position: fixed;
+        }
     }
 }
 .container{
@@ -24,6 +27,11 @@ $color: #FFA41E;
             padding-bottom: 100px;
         }
     }
+}
+.head-icon{
+    display:inline-block;
+    padding-bottom: 15px;
+    padding-right: 10px;
 }
 .content{
     padding: 0 !important;
@@ -42,45 +50,84 @@ $color: #FFA41E;
         background: red;
     }
 }
-
 .steps{
     p{
         margin-bottom: 70px;
     }
-    ol{
-        padding-left: 0px;
-        list-style: none;
-        counter-reset: my-awesome-counter;
-        
-        li {
-            counter-increment: my-awesome-counter;
-            // margin-top: -30px;
-            padding: 0px 120px 0px 0px;
-            @media screen and (max-width: $small) {
-                width: 70vw;
-                // margin-top: -30px;
-                padding: 0px;
-            }
-            transform: translate(80px, -60px);
+    .step-card{
+        width: 100%;
+        counter-reset: scounter;
+        div{
+            background: white;
+            padding: 25px;
+            counter-increment: scounter;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0px 5px 12px  #55555510;
             &::before {
-                content: counter(my-awesome-counter);
+                content: counter(scounter);
                 height: 60px;
                 width: 60px;
                 padding-top: 18px;
+                position: absolute;
+                float: right;
                 display: block;
                 font-weight: bold;
                 font-size: 1.5em;
                 line-height: 1em;
                 text-align: center;
                 font-family: Montserrat, sans-serif;
-                border-radius: 10px;
+                border-radius: 5px;
                 color: $color;
                 background: #FFA41E30;
                 font-weight: bold;
-                transform: translate(-80px, 60px);
+            }
+            img{
+                border: 1px solid #55555530;
+                border-radius: 5px;
+                display: block;
+                min-height: 60px;
+                width: 100%;
+                background-size: 120% 120%;
+                animation: gradient-animation 1s linear infinite;
+                margin-bottom: 20px;
             }
         }
     }
+    // ol{
+    //     padding-left: 0px;
+    //     list-style: none;
+    //     counter-reset: my-awesome-counter;
+        
+    //     li {
+    //         counter-increment: my-awesome-counter;
+    //         // margin-top: -30px;
+    //         padding: 0px 120px 0px 0px;
+    //         @media screen and (max-width: $small) {
+    //             width: 70vw;
+    //             // margin-top: -30px;
+    //             padding: 0px;
+    //         }
+    //         transform: translate(80px, -60px);
+    //         &::before {
+    //             content: counter(my-awesome-counter);
+    //             height: 60px;
+    //             width: 60px;
+    //             padding-top: 18px;
+    //             display: block;
+    //             font-weight: bold;
+    //             font-size: 1.5em;
+    //             line-height: 1em;
+    //             text-align: center;
+    //             font-family: Montserrat, sans-serif;
+    //             border-radius: 10px;
+    //             color: $color;
+    //             background: #FFA41E30;
+    //             font-weight: bold;
+    //             transform: translate(-80px, 60px);
+    //         }
+    //     }
+    // }
 }
 
 .cards-wrapper {
@@ -138,6 +185,9 @@ $color: #FFA41E;
 }
 
 .resources{
+    div{
+        margin-bottom: 0px;
+    }
     a{
         padding: 5px 15px;
         text-align: center;

@@ -36,6 +36,58 @@ export class StepComponent implements OnInit {
     {
       "id": "is",
       "icon": "../../assets/img/tools/is.png"
+    },
+    {
+      "id": "wd",
+      "icon": "../../assets/img/tools/wd.png"
+    },
+    {
+      "id": "xl",
+      "icon": "../../assets/img/tools/xl.png"
+    },
+    {
+      "id": "np",
+      "icon": "../../assets/img/tools/np.png"
+    },
+    {
+      "id": "pp",
+      "icon": "../../assets/img/tools/pp.png"
+    },
+    {
+      "id": "mr",
+      "icon": "../../assets/img/tools/mr.svg"
+    },
+    {
+      "id": "ae",
+      "icon": "../../assets/img/tools/ae.png"
+    },
+    {
+      "id": "fg",
+      "icon": "../../assets/img/tools/fg.svg"
+    },
+    {
+      "id": "wm",
+      "icon": "../../assets/img/tools/wm.png"
+    },
+    {
+      "id": "pt",
+      "icon": "../../assets/img/tools/pt.png"
+    },
+    {
+      "id": "fr",
+      "icon": "../../assets/img/tools/fr.png"
+    },
+    {
+      "id": "pc",
+      "icon": "../../assets/img/tools/pc.svg"
+    },
+    {
+      "id": "dr",
+      "icon": "../../assets/img/tools/dr.svg"
+    },
+    {
+      "id": "iv",
+      "icon": "../../assets/img/tools/iv.png"
     }
   ];
 

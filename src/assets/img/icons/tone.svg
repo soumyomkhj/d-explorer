@@ -1,0 +1,17 @@
+<svg id="vuesax_bulk_music" data-name="vuesax/bulk/music" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49" height="49" viewBox="0 0 49 49">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffa41e"/>
+      <stop offset="1" stop-color="#ffda60"/>
+    </linearGradient>
+  </defs>
+  <rect id="vuesax_bulk_music_Background_" data-name="vuesax/bulk/music (Background)" width="49" height="49" fill="none"/>
+  <g id="vuesax_bulk_music-2" data-name="vuesax/bulk/music">
+    <g id="music">
+      <path id="Vector" d="M14.659,16.476A7.389,7.389,0,1,1,11.8,10.719V.817L14.659,0Z" transform="translate(6.348 21.111)" fill="url(#linear-gradient)"/>
+      <path id="Vector-2" data-name="Vector" d="M14.659,18.7a7.33,7.33,0,1,1-7.33-7.309,7.189,7.189,0,0,1,4.492,1.572V.817L14.659,0Z" transform="translate(27.993 14.945)" fill="url(#linear-gradient)"/>
+      <path id="Vector-3" data-name="Vector" d="M24.5,10.859,0,17.841V9.7a6.116,6.116,0,0,1,4.7-6.1L16.5.365c2.389-.653,4.41-.429,5.839.674C23.785,2.12,24.5,3.958,24.5,6.49Z" transform="translate(18.152 4.086)" opacity="0.4" fill="url(#linear-gradient)"/>
+      <path id="Vector-4" data-name="Vector" d="M49,0V49H0V0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

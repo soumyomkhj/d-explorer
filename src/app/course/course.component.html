@@ -6,7 +6,7 @@
 		<div class="step-container">
 			<div class="card-head">
 				<div class="step-title">Secondary Research</div>
-				<div class="progress"><span>4</span>/ 5 read</div>
+				<div class="progress"><span>1</span>/ 3 read</div>
 			</div>
 			<div class="cards-wrapper">
 				<div class="card" (click)="goToContent('secondary', 'context')">
@@ -14,11 +14,11 @@
 					Context
 				</div>
 				<div class="card" (click)="goToContent('secondary', 'competition')">
-					<img src="../../assets/img/icons/questions.svg" alt=""  class="icon">
+					<img src="../../assets/img/icons/competition.svg" alt=""  class="icon">
 					Competition
 				</div>
-				<div class="card" [routerLink]="['/step']">
-					<img src="../../assets/img/icons/flag.svg" alt=""  class="icon">
+				<div class="card" (click)="goToContent('secondary', 'tone')">
+					<img src="../../assets/img/icons/tone.svg" alt=""  class="icon">
 					Tone
 				</div>
 			</div>
@@ -34,16 +34,12 @@
 		<div class="step-container">
 			<div class="card-head">
 				<div class="step-title">Primary Research</div>
-				<div class="progress"><span>4</span>/ 5 read</div>
+				<div class="progress"><span>0</span>/ 1 read</div>
 			</div>
 			<div class="cards-wrapper">
-				<div class="card">
-					<img src="../../assets/img/icons/happy.svg" alt=""  class="icon">
+				<div class="card" (click)="goToContent('primary', 'goal')">
+					<img src="../../assets/img/icons/user-goal.svg" alt=""  class="icon">
 					User Goal
-				</div>
-				<div class="card">
-					<img src="../../assets/img/icons/questions.svg" alt=""  class="icon">
-					Persona
 				</div>
 			</div>
 		</div>
@@ -58,15 +54,20 @@
 		<div class="step-container">
 			<div class="card-head">
 				<div class="step-title">Analyze</div>
-				<div class="progress"><span>4</span>/ 5 read</div>
+				<div class="progress"><span>0</span>/ 3 read</div>
 			</div>
+			
 			<div class="cards-wrapper">
-				<div class="card">
-					<img src="../../assets/img/icons/happy.svg" alt=""  class="icon">
+				<div class="card" (click)="goToContent('analyze', 'findings')">
+					<img src="../../assets/img/icons/findings.svg" alt=""  class="icon">
 					Findings
 				</div>
-				<div class="card">
-					<img src="../../assets/img/icons/questions.svg" alt=""  class="icon">
+				<div class="card" (click)="goToContent('analyze', 'persona')">
+					<img src="../../assets/img/icons/persona.svg" alt=""  class="icon">
+					Persona
+				</div>
+				<div class="card" (click)="goToContent('analyze', 'opportunities')">
+					<img src="../../assets/img/icons/opportunities.svg" alt=""  class="icon">
 					Opportunities
 				</div>
 			</div>
@@ -82,20 +83,20 @@
 		<div class="step-container">
 			<div class="card-head">
 				<div class="step-title">Ideate</div>
-				<div class="progress"><span>4</span>/ 5 read</div>
+				<div class="progress"><span>0</span>/ 3 read</div>
 			</div>
 			<div class="cards-wrapper">
-				<div class="card">
-					<img src="../../assets/img/icons/happy.svg" alt=""  class="icon">
-					Architecture
+				<div class="card" (click)="goToContent('ideate', 'visuals')">
+					<img src="../../assets/img/icons/visuals.svg" alt=""  class="icon">
+					Visuals
 				</div>
-				<div class="card">
-					<img src="../../assets/img/icons/questions.svg" alt=""  class="icon">
-					Wireframe
+				<div class="card" (click)="goToContent('ideate', 'brainstorming')">
+					<img src="../../assets/img/icons/brainstorming.svg" alt=""  class="icon">
+					Brainstorming
 				</div>
-				<div class="card">
-					<img src="../../assets/img/icons/flag.svg" alt=""  class="icon">
-					Stylize
+				<div class="card" (click)="goToContent('ideate', 'choose')">
+					<img src="../../assets/img/icons/choose.svg" alt=""  class="icon">
+					Choose
 				</div>
 			</div>
 		</div>
@@ -109,17 +110,25 @@
 		
 		<div class="step-container">
 			<div class="card-head">
-				<div class="step-title">Design</div>
-				<div class="progress"><span>4</span>/ 5 read</div>
+				<div class="step-title">Prototype</div>
+				<div class="progress"><span>0</span>/ 4 read</div>
 			</div>
 			<div class="cards-wrapper">
-				<div class="card">
-					<img src="../../assets/img/icons/happy.svg" alt=""  class="icon">
-					Hi-Fi
+				<div class="card" (click)="goToContent('prototype', 'architecture')">
+					<img src="../../assets/img/icons/architecture.svg" alt=""  class="icon">
+					Architecture 
 				</div>
-				<div class="card">
-					<img src="../../assets/img/icons/questions.svg" alt=""  class="icon">
-					Mockup
+				<div class="card" (click)="goToContent('prototype', 'wireframe')">
+					<img src="../../assets/img/icons/wireframe.svg" alt=""  class="icon">
+					Wireframe
+				</div>
+				<div class="card" (click)="goToContent('prototype', 'screens')">
+					<img src="../../assets/img/icons/screens.svg" alt=""  class="icon">
+					Screens
+				</div>
+				<div class="card" (click)="goToContent('prototype', 'hifi')">
+					<img src="../../assets/img/icons/hi-fi.svg" alt=""  class="icon">
+					Hi-Fi
 				</div>
 			</div>
 		</div>
@@ -132,15 +141,15 @@
 		<div class="step-container">
 			<div class="card-head">
 				<div class="step-title">Test</div>
-				<div class="progress"><span>4</span>/ 5 read</div>
+				<div class="progress"><span>0</span>/ 2 read</div>
 			</div>
 			<div class="cards-wrapper">
-				<div class="card">
-					<img src="../../assets/img/icons/happy.svg" alt=""  class="icon">
+				<div class="card" (click)="goToContent('test', 'performance')">
+					<img src="../../assets/img/icons/performance.svg" alt=""  class="icon">
 					Performance
 				</div>
-				<div class="card">
-					<img src="../../assets/img/icons/questions.svg" alt=""  class="icon">
+				<div class="card" (click)="goToContent('test', 'aloud')">
+					<img src="../../assets/img/icons/think-aloud.svg" alt=""  class="icon">
 					Think Aloud
 				</div>
 			</div>
