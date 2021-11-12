@@ -1,16 +1,16 @@
 {
     "title": "Visuals",
     "icon": "../../assets/img/icons/visuals.svg",
-    "summary": "Think of what colors fit well as per our requirements, how they will fit into the website elsements. How will the elemets look and feel like? Try out differnt styles.",
+    "summary": "Think of how the website should look like depending on the findings? What colors fit well as per our requirements, how they will fit into the website elements. How will the elements look and feel? Try out different styles.",
     "before": "We already need to have the direction set in our mind, what are the goals of the website, what are the goals of the people visiting them?",
     "after": "Now we can move on to selecting a style which matches with our requirements and fits with the brand perfectly",
     "key_steps": [
         {
-            "text" : "Think about which colors suits the company more, hence the website. Make different sets of color pallets to be used in the future.",
+            "text" : "Think about which colors suit the company more, hence the website. Make different sets of color pallets to be used in the future.",
             "img" : "./../assets/img/steps/81.png"
         },
         {
-            "text" : "Ideate on different fonts combination as per our comany. Which fonts sutis the company tone more? Will the fonts be legible on the webpage? Will the body font and the header goes well togather",
+            "text" : "Ideate on different fonts combination as per our comany. Which fonts suits the company tone more? Will the fonts be legible on the webpage? Will the body font and the header goes well together",
             "img" : "./../assets/img/steps/82.png"
         },
         {
@@ -18,7 +18,7 @@
             "img" : "./../assets/img/steps/83.png"
         },
         {
-            "text" : "Think of different kinds of UI styles that can you use. What goes best with the company according to reasearch",
+            "text" : "Think of different kinds of UI styles that can you use. What goes best with the company according to research",
             "img" : "./../assets/img/steps/84.png"
         }
     ],

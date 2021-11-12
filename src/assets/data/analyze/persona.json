@@ -1,12 +1,12 @@
 {
     "title": "Persona",
     "icon": "../../assets/img/icons/persona.svg",
-    "summary": "Describe your potential users within a page, what are their daily life is like, what are their likings, and so on. Seeing this through out the project will keep our website aligned with the user needs.Describe your potential users within a page, what are their daily life is like, what are their likings, and so on. Seeing this through out the project will keep our website aligned with the user needs.",
+    "summary": "Describe your potential users within a page, what are their daily life is like, what are their likings, and so on. Seeing this throughout the project will keep our website aligned with the user needs.Describe your potential users within a page, what are their daily life is like, what are their likings, and so on. Seeing this through out the project will keep our website aligned with the user needs.",
     "before": "We need to have clear Idea about how people uses this website and how is our product affecting their lives, where and they from and what are they like",
-    "after": "Starting the project after this will give you a perspectivce from the user's point of view, and we can solve problems for them better.",
+    "after": "Starting the project after this will give you a perspective from the user's point of view, and we can solve problems for them better.",
     "key_steps": [
         {
-            "text" : "Identify how many types of unique users you have, for example buyer and seller, wholesale and retail, parent, teacher and studnet, like so. It can be one or ore than one. For each type of user we will have a different persona.",
+            "text" : "Identify how many types of unique users you have, for example buyer and seller, wholesale and retail, parent, teacher and student, like so. It can be one or more than one. For each type of user we will have a different persona.",
             "img" : "./../assets/img/steps/61.png"
         },
         {

@@ -1,16 +1,16 @@
 {
-    "title": "Competition",
+    "title": "Competitor",
     "icon": "../../assets/img/icons/competition.svg",
-    "summary": "Who else is doing the same thing, solving similar type of problem? There must be many people who did something atleast remotely similar. How is it conneted to the problem you are solving? We also need to position our self as how we are doing it better?",
-    "before": "We need to have very basic Idea about the project, having discussion with the client and knowing them would be helpful.",
+    "summary": "Who else is doing the same thing, solving similar types of problems? There must be many people who did something at-least remotely similar. How is it connected to the problem you are solving? We also need to position ourselves as how we are doing it better?",
+    "before": "We need to have a very basic Idea about the project, having discussion with the client and knowing them would be helpful.",
     "after": "You will have clear Idea about where the project is positioned, with respect to the market",
     "key_steps": [
         {
-            "text" : "Find out the other companies that are working in the same area, doing the same stff, solving the same problem, or even companies in related area. Now we will compare their strengths, weaknesses, opportunities and threats. (SWOT)",
+            "text" : "Find out the other companies that are working in the same area, doing the same stuff, solving the same problem, or even companies in related areas. Now we will compare their strengths, weaknesses, opportunities and threats. (SWOT)",
             "img" : "./../assets/img/steps/21.png"
         },
         {
-            "text" : "Make a list of what are their Strength, things they doing really good and successfully? What do others see as their strengths?",
+            "text" : "Make a list of what are their Strengths, things they doing really good and successfully? What do others see as their strengths?",
             "img" : "./../assets/img/steps/22.png"
         },
         {
@@ -22,7 +22,7 @@
             "img" : "./../assets/img/steps/24.png"
         },
         {
-            "text" : "What Threats are they facing? Which of these threats you also have to be carefull about?",
+            "text" : "What Threats are they facing? Which of these threats you also have to be careful about?",
             "img" : "./../assets/img/steps/25.png"
         }
     ],
@@ -43,7 +43,7 @@
             "url": "https://slidesgo.com/theme/swot-analysis-infographics"
         },
         {
-            "title": "PPT SWOT Teplate",
+            "title": "PPT SWOT Template",
             "url": "https://slidemodel.com/templates/swot-analysis-template-deck/"
         }
     ]

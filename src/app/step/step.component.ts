@@ -117,7 +117,7 @@ export class StepComponent implements OnInit {
     });
   }
 
-  getToolImg(tool){
+  getToolImg(tool: any){
     const obj = this.toolImages.find(x => x.id === tool);
     return obj.icon;
   }

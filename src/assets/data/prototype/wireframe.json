@@ -3,7 +3,7 @@
     "icon": "../../assets/img/icons/wireframe.svg",
     "summary": "Depending on the architecture start making the pages on paper without any color or stylization, Think about how things will function rather than how it will look like for the best experience.",
     "before": "You need all the pages that are to be designed, for that you need a list or architecture (skeleton) of the whole website.",
-    "after": "Now having the wireframe is like having a flesh on the of the skeleton of the website. Now for the rest you have to put a high fidelity user interface(UI) on it.",
+    "after": "Now having the wireframe is like having a flesh on the skeleton of the website. Now for the rest you have to put a high fidelity user interface(UI) on it.",
     "key_steps": [
         {
             "text" : "The goal is to make only layouts representing features and formats, not illustrating with all fine details. Draft, don’t draw. Sketch, don’t illustrate",
