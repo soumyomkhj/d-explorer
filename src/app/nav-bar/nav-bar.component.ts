@@ -17,7 +17,7 @@ export class NavBarComponent implements OnInit {
 
   getCurrentTab(){
     const path = window.location.pathname;
-    if (path === '/try'){
+    if (path === '/try' || path === '/problem' ){
       this.currentTab = 'try';
     } else if (path === '/profile'){
       this.currentTab = 'profile';
