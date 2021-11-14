@@ -1,4 +1,3 @@
-<app-nav-bar></app-nav-bar>
 <div class="cr-con ">
 	<div class="course ">
 		<div class="devider hidden-sm"></div>
@@ -15,21 +14,21 @@
 			<div class="cards-wrapper">
 				<div class="card done" (click)="goToContent('secondary', 'context')">
 					<span>
-						<img src="../../assets/img/icons/happy.svg" alt=""  class="icon">
+						<img src="assets/img/icons/happy.svg" alt=""  class="icon">
 						Context
 					</span>
 					<span class="card-info">What is the problem that we are trying to solve by the website</span>
 				</div>
 				<div class="card" (click)="goToContent('secondary', 'competition')">
 					<span>
-						<img src="../../assets/img/icons/competition.svg" alt=""  class="icon">
+						<img src="assets/img/icons/competition.svg" alt=""  class="icon">
 						Competitor
 					</span>
 					<span class="card-info">Who else is doing the same thing, solving similar type of problem</span>
 				</div>
 				<div class="card" (click)="goToContent('secondary', 'tone')">
 					<span>
-						<img src="../../assets/img/icons/tone.svg" alt=""  class="icon">
+						<img src="assets/img/icons/tone.svg" alt=""  class="icon">
 						Values
 					</span>
 					<span class="card-info">What does company stands for, what are their goal</span>
@@ -38,7 +37,7 @@
 		</div>
 
 		<div class="big-button"  [routerLink]="['/try']">
-			<img src="../../assets/img/icons/brush.svg" alt=""  class="icon">
+			<img src="assets/img/icons/brush.svg" alt=""  class="icon">
 			Try Yourself
 		</div>
 
@@ -55,21 +54,21 @@
 			<div class="cards-wrapper">
 				<div class="card" (click)="goToContent('primary', 'old')">
 					<span>
-						<img src="../../assets/img/icons/old.svg" alt=""  class="icon">
+						<img src="assets/img/icons/old.svg" alt=""  class="icon">
 						Old Design
 					</span>
 					<span class="card-info">If there is already and website in place, we need to analyze that</span>
 				</div>
 				<div class="card" (click)="goToContent('primary', 'environment')">
 					<span>
-						<img src="../../assets/img/icons/environment.svg" alt=""  class="icon">
+						<img src="assets/img/icons/environment.svg" alt=""  class="icon">
 						Environment
 					</span>
 					<span class="card-info">Where is this website placed? How is the environment?</span>
 				</div>
 				<div class="card" (click)="goToContent('primary', 'goal')">
 					<span>
-						<img src="../../assets/img/icons/user-goal.svg" alt=""  class="icon">
+						<img src="assets/img/icons/user-goal.svg" alt=""  class="icon">
 						User Goal
 					</span>
 					<span class="card-info">Talk to your potential or current users, what they are looking for</span>
@@ -78,7 +77,7 @@
 		</div>
 
 		<div class="big-button">
-			<img src="../../assets/img/icons/brush.svg" alt=""  class="icon">
+			<img src="assets/img/icons/brush.svg" alt=""  class="icon">
 			Try Yourself
 		</div>
 
@@ -96,21 +95,21 @@
 			<div class="cards-wrapper">
 				<div class="card" (click)="goToContent('analyze', 'findings')">
 					<span>
-						<img src="../../assets/img/icons/findings.svg" alt=""  class="icon">
+						<img src="assets/img/icons/findings.svg" alt=""  class="icon">
 						Findings
 					</span>
 					<span class="card-info"> Analyze al data to summarize everything in actionable parts</span>
 				</div>
 				<div class="card" (click)="goToContent('analyze', 'persona')">
 					<span>
-						<img src="../../assets/img/icons/persona.svg" alt=""  class="icon">
+						<img src="assets/img/icons/persona.svg" alt=""  class="icon">
 						Persona
 					</span>
 					<span class="card-info">Describe your potential users in details within a page </span>
 				</div>
 				<div class="card" (click)="goToContent('analyze', 'opportunities')">
 					<span>
-						<img src="../../assets/img/icons/opportunities.svg" alt=""  class="icon">
+						<img src="assets/img/icons/opportunities.svg" alt=""  class="icon">
 						Opportunities
 					</span>
 					<span class="card-info">Depending on your findings, think of the points that you can solve </span>
@@ -119,7 +118,7 @@
 		</div>
 
 		<div class="big-button">
-			<img src="../../assets/img/icons/brush.svg" alt=""  class="icon">
+			<img src="assets/img/icons/brush.svg" alt=""  class="icon">
 			Try Yourself
 		</div>
 
@@ -134,23 +133,23 @@
 				<div class="progress"><span>0</span>/ 3 read</div>
 			</div>
 			<div class="cards-wrapper">
-				<div class="card" (click)="goToContent('ideate', 'visuals')">
-					<span>
-						<img src="../../assets/img/icons/visuals.svg" alt=""  class="icon">
-						Visuals
-					</span>
-					<span class="card-info">Think of how the webiste should look like based on the findings</span>
-				</div>
 				<div class="card" (click)="goToContent('ideate', 'brainstorming')">
 					<span>
-						<img src="../../assets/img/icons/brainstorming.svg" alt=""  class="icon">
+						<img src="assets/img/icons/brainstorming.svg" alt=""  class="icon">
 						Brainstorming
 					</span>
 					<span class="card-info">Write and sketch about alternate ideas for the website</span>
 				</div>
+				<div class="card" (click)="goToContent('ideate', 'visuals')">
+					<span>
+						<img src="assets/img/icons/visuals.svg" alt=""  class="icon">
+						Visuals
+					</span>
+					<span class="card-info">Think of how the webiste should look like based on the findings</span>
+				</div>
 				<div class="card" (click)="goToContent('ideate', 'choose')">
 					<span>
-						<img src="../../assets/img/icons/choose.svg" alt=""  class="icon">
+						<img src="assets/img/icons/choose.svg" alt=""  class="icon">
 						Choose
 					</span>
 					<span class="card-info">Look for what goes best with the project you are working on</span>
@@ -159,7 +158,7 @@
 		</div>
 
 		<div class="big-button">
-			<img src="../../assets/img/icons/brush.svg" alt=""  class="icon">
+			<img src="assets/img/icons/brush.svg" alt=""  class="icon">
 			Try Yourself
 		</div>
 		
@@ -176,28 +175,28 @@
 			<div class="cards-wrapper">
 				<div class="card" (click)="goToContent('prototype', 'architecture')">
 					<span>
-						<img src="../../assets/img/icons/architecture.svg" alt=""  class="icon">
+						<img src="assets/img/icons/architecture.svg" alt=""  class="icon">
 						Architecture 
 					</span>
 					<span class="card-info">How someone will navigate through the website</span>
 				</div>
 				<div class="card" (click)="goToContent('prototype', 'wireframe')">
 					<span>
-						<img src="../../assets/img/icons/wireframe.svg" alt=""  class="icon">
+						<img src="assets/img/icons/wireframe.svg" alt=""  class="icon">
 						Wireframe
 					</span>
 					<span class="card-info">start making the pages without any color or stylization</span>
 				</div>
 				<div class="card" (click)="goToContent('prototype', 'screens')">
 					<span>
-						<img src="../../assets/img/icons/screens.svg" alt=""  class="icon">
+						<img src="assets/img/icons/screens.svg" alt=""  class="icon">
 						Screens
 					</span>
 					<span class="card-info">Take the wireframe and turn those into beautiful mockup</span>
 				</div>
 				<div class="card" (click)="goToContent('prototype', 'hifi')">
 					<span>
-						<img src="../../assets/img/icons/hi-fi.svg" alt=""  class="icon">
+						<img src="assets/img/icons/hi-fi.svg" alt=""  class="icon">
 						Hi-Fi
 					</span>
 					<span class="card-info">Making the prototype complete by adding interactions</span>
@@ -206,7 +205,7 @@
 		</div>
 
 		<div class="big-button">
-			<img src="../../assets/img/icons/brush.svg" alt=""  class="icon">
+			<img src="assets/img/icons/brush.svg" alt=""  class="icon">
 			Try Yourself
 		</div>
 
@@ -223,14 +222,14 @@
 			<div class="cards-wrapper">
 				<div class="card" (click)="goToContent('test', 'performance')">
 					<span>
-						<img src="../../assets/img/icons/performance.svg" alt=""  class="icon">
+						<img src="assets/img/icons/performance.svg" alt=""  class="icon">
 						Performance
 					</span>
 					<span class="card-info">See how easily people are navigating though the website</span>
 				</div>
 				<div class="card" (click)="goToContent('test', 'aloud')">
 					<span>
-						<img src="../../assets/img/icons/think-aloud.svg" alt=""  class="icon">
+						<img src="assets/img/icons/think-aloud.svg" alt=""  class="icon">
 						Think Aloud
 					</span>
 					<span class="card-info">Ask people to say what they are doing, what they are thinking while using the website</span>
@@ -239,7 +238,7 @@
 		</div>
 
 		<div class="big-button">
-			<img src="../../assets/img/icons/brush.svg" alt=""  class="icon">
+			<img src="assets/img/icons/brush.svg" alt=""  class="icon">
 			Try Yourself
 		</div>
 

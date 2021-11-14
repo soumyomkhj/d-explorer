@@ -108,7 +108,7 @@ body{
             border: 2px solid  var(--primary-green);
             &>span::after{
                 content: " ";
-                background: url(../../assets/img/icons/done.svg);
+                background: url("../../assets/img/icons/done.svg");
                 margin-left: 10px;
                 display: inline-block;
                 width: 25px;

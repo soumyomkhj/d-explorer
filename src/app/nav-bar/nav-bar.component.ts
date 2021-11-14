@@ -12,20 +12,27 @@ export class NavBarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.getCurrentTab();
   }
 
-  getCurrentTab(){
+  tryClass(){
     const path = window.location.pathname;
-    if (path === '/try' || path === '/problem' ){
-      this.currentTab = 'try';
-    } else if (path === '/profile'){
-      this.currentTab = 'profile';
-    } else {
-      this.currentTab = 'home';
+    if (path === '/try' || path === '/problem') {
+      return 'active';
+    }
+    else{
+      return '';
     }
   }
 
+  homeClass(){
+    const path = window.location.pathname;
+    if (path === '/' || path === '/course' || path === '/step') {
+      return 'active';
+    }
+    else{
+      return '';
+    }
+  }
   pointerClass(){
     const path = window.location.pathname;
     if (path === '/profile'){

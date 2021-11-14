@@ -1,9 +1,8 @@
-<app-nav-bar> </app-nav-bar>
 <div class="container">
     <div class="header">
         <img src="{{pageData?.icon}}" class="head-icon" alt=""><h1 style="display:inline-block">{{pageData?.title}}</h1>
         <br>
-        <img src="../../assets/img/icons/close.svg" alt=""  data-ng-include class="icon"  [routerLink]="['/course']">
+        <img src="assets/img/icons/close.svg" alt=""  data-ng-include class="icon"  [routerLink]="['/course']">
         {{pageData?.summary}}
     </div>
     <div class="content col-sm-12 col-md-6">
