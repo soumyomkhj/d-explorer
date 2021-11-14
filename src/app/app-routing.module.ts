@@ -7,6 +7,7 @@ import { ToolComponent } from './tool/tool.component';
 import { TryComponent } from './try/try.component';
 import { ProblemComponent } from './problem/problem.component';
 import { CreateComponent } from './create/create.component';
+import { AppComponent } from './app.component';
 
 const routes: Routes = [
   {path: '',component: HomeComponent},
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: 'tool', component: ToolComponent},
   {path: 'try', component: TryComponent},
   {path: 'problem', component: ProblemComponent},
-  {path: 'create', component: CreateComponent}
+  {path: 'create', component: CreateComponent},
+  {path: '**', pathMatch: 'full', component: HomeComponent }
 ];
 
 @NgModule({

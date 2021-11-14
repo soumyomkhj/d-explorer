@@ -29,18 +29,22 @@ export class NavBarComponent implements OnInit {
     if (path === '/' || path === '/course' || path === '/step') {
       return 'active';
     }
-    else{
+    else if (path === '/try' || path === '/problem') {
       return '';
+    } else {
+      return 'active';
     }
   }
   pointerClass(){
     const path = window.location.pathname;
-    if (path === '/profile'){
-      return 'bottom';
-    } else if (path === '/' || path === '/course' || path === '/step') {
-      return 'top';
-    } else {
+    if (path === '/try' || path === '/problem') {
       return 'default';
+    }
+    // else if (path === '/' || path === '/course' || path === '/step') {
+    //   return 'top';
+    // } 
+    else {
+      return 'top';
     }
   }
 

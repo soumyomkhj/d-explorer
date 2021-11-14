@@ -122,7 +122,7 @@ export class StepComponent implements OnInit {
     return obj.icon;
   }
 
-  get(location){
+  get(location: any){
     const data = this.http.get(location);
     return data;
   }
