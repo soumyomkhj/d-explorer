@@ -7,17 +7,22 @@ import { ToolComponent } from './tool/tool.component';
 import { TryComponent } from './try/try.component';
 import { ProblemComponent } from './problem/problem.component';
 import { CreateComponent } from './create/create.component';
+import { ProfileComponent } from './profile/profile.component';
+import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
 
 const routes: Routes = [
-  {path: '',component: HomeComponent},
+  {path: '',component: AboutComponent},
+  {path: 'about',component: AboutComponent},
+  {path: 'home',component: HomeComponent},
   {path: 'course', component: CourseComponent},
   {path: 'step', component: StepComponent},
   {path: 'tool', component: ToolComponent},
   {path: 'try', component: TryComponent},
   {path: 'problem', component: ProblemComponent},
   {path: 'create', component: CreateComponent},
-  {path: '**', pathMatch: 'full', component: HomeComponent }
+  {path: 'profile', component: ProfileComponent},
+  {path: '**', pathMatch: 'full', component: AboutComponent }
 ];
 
 @NgModule({

@@ -1,13 +1,13 @@
-<nav>
+<nav [ngClass]="aboutClass()">
     <div [ngClass]="pointerClass()" class="nav-pointer"></div>
     <div class="nav-con">
         <div class="icon-con">
             <div class="nav-pill">
                 <!-- <div *ngIf="currentTab === 'home'" class="nav-pointer top"></div> -->
-                <img src="assets/img/icons/home.svg" alt="home" [ngClass]="homeClass()" class="icon" [routerLink]="['']">
+                <img src="assets/img/icons/home.svg" alt="home" [ngClass]="homeClass()" class="icon" [routerLink]="['/home']">
             </div>
             <div class="nav-pill"><img src="assets/img/icons/work.svg" alt="try" [ngClass]="tryClass()" class="icon" [routerLink]="['/try']"></div>
-            <div class="nav-pill"><img src="assets/img/icons/profile.svg" alt="profile" class="icon"></div>
+            <div class="nav-pill"><img src="assets/img/icons/profile.svg" alt="profile" [ngClass]="profileClass()" class="icon" [routerLink]="['/profile']"></div>
         </div>
     </div>
 </nav>

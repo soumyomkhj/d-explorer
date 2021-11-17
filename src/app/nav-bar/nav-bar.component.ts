@@ -23,13 +23,27 @@ export class NavBarComponent implements OnInit {
       return '';
     }
   }
-
+  aboutClass(){
+      const path = window.location.pathname;
+      if (path === '/about' || path === '/' ) {
+        return 'hidden';
+      }
+      else{
+        return '';
+      }
+    }
+  profileClass(){
+      const path = window.location.pathname;
+      if (path === '/profile') {
+        return 'active';
+      }
+      else{
+        return '';
+      }
+    }
   homeClass(){
     const path = window.location.pathname;
-    if (path === '/' || path === '/course' || path === '/step') {
-      return 'active';
-    }
-    else if (path === '/try' || path === '/problem') {
+    if (path === '/try' || path === '/problem' || path === '/profile') {
       return '';
     } else {
       return 'active';
@@ -40,10 +54,10 @@ export class NavBarComponent implements OnInit {
     if (path === '/try' || path === '/problem') {
       return 'default';
     }
-    // else if (path === '/' || path === '/course' || path === '/step') {
-    //   return 'top';
-    // } 
-    else {
+    else if (path === '/profile') {
+      return 'bottom';
+    } 
+      else {
       return 'top';
     }
   }

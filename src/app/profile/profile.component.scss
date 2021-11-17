@@ -1,0 +1,32 @@
+$small : 1100px;
+
+.dashboard{
+    background-image: url("../../assets/img/bg.svg") !important;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+}
+
+.container{
+    position: absolute;
+    @media screen and (min-width: $small) {
+        margin: 40vh 40vw;
+    }
+}
+
+.dp{
+    width: 100%;
+    border-radius: 100%;
+    border: 2px solid black;
+    @media screen and (max-width: $small) {
+        padding: 10%;
+    }
+}
+
+.name{
+    font-size: 2em;
+    line-height: 3.5em;
+    @media screen and (max-width: $small) {
+        text-align: center;
+    }
+}

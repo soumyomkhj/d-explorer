@@ -23,6 +23,11 @@
     vertical-align: middle;
 }
 
+.cmn{
+    font-size: .6em !important;
+    font-weight: 300;
+}
+
 .workshop-progress{
     font-size: 1.2em;
     line-height: 2em;
@@ -65,4 +70,30 @@
 
 .card-button{
     float: right;
+}
+
+.cmsn{
+    opacity: 50%;
+    transition: all 300ms ease;
+    .workshop-name{
+        margin-top: 65px;
+    }
+}
+
+.cmsn:hover{
+    filter: grayscale(100%);
+    .workshop-name{
+        display: none;
+    }
+    &::before{
+        content: "Coming Soon!";
+        display: block;
+        @extend .workshop-name;
+        text-align: center;
+        margin-top: 80px;
+            // position: absolute;
+            // left: 50%;
+            // top: 30%;
+            // transform: translate(-50%,-50%);
+    }
 }

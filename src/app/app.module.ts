@@ -14,6 +14,8 @@ import { CreateComponent } from './create/create.component';
 import { ProblemComponent } from './problem/problem.component';
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import { ProfileComponent } from './profile/profile.component';
+import { AboutComponent } from './about/about.component';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -45,6 +47,8 @@ const analytics = getAnalytics(app);
     TryComponent,
     CreateComponent,
     ProblemComponent,
+    ProfileComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
