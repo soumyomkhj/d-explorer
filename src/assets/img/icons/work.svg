@@ -1,10 +1,12 @@
-<svg id="vuesax_bulk_shapes" data-name="vuesax/bulk/shapes" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
-  <rect id="vuesax_bulk_shapes_Background_" data-name="vuesax/bulk/shapes (Background)" width="36" height="36" fill="none"/>
-  <g id="vuesax_bulk_shapes-2" data-name="vuesax/bulk/shapes">
-    <g id="shapes">
-      <path id="Vector" d="M36,0V36H0V0Z" fill="none" opacity="0"/>
-      <path id="Vector-2" data-name="Vector" d="M3.6,19.5a3.593,3.593,0,0,1-3.15-5.325l3.5-6.36,3.27-5.955a3.6,3.6,0,0,1,6.3,0L16.8,7.811l1.575,2.865,1.92,3.5a3.593,3.593,0,0,1-3.15,5.325Z" transform="translate(3 3.004)" fill="#1d87c9"/>
-      <path id="Vector-3" data-name="Vector" d="M9.75,19.5A9.75,9.75,0,0,1,0,9.75C0,9.495.015,9.255.03,9H6.645a3.593,3.593,0,0,0,3.15-5.325L7.875.18A9.578,9.578,0,0,1,9.75,0a9.75,9.75,0,0,1,0,19.5Z" transform="translate(13.5 13.5)" fill="#1d87c9" opacity="0.4"/>
+<svg id="work" xmlns="http://www.w3.org/2000/svg" width="36" height="36.018" viewBox="0 0 36 36.018">
+  <g id="vuesax_bulk_brush" data-name="vuesax/bulk/brush" transform="translate(0 0)">
+    <g id="brush">
+      <path id="Vector" d="M10.463,0C3.908,0,0,3.908,0,10.463V25.537C0,32.11,3.908,36.018,10.463,36.018H25.537C32.092,36.018,36,32.11,36,25.555V10.463C36.018,3.908,32.11,0,25.555,0Z" transform="translate(0 0)" fill="#1d87c9" opacity="0"/>
+      <path id="Vector-2" data-name="Vector" d="M9.126,0C3.408,0,0,3.409,0,9.126V22.273c0,5.733,3.408,9.142,9.126,9.142H22.273c5.717,0,9.126-3.409,9.126-9.126V9.126C31.414,3.409,28.006,0,22.288,0Z" transform="translate(2.3 2.302)" fill="#1d87c9" opacity="0.4"/>
+      <path id="Vector-3" data-name="Vector" d="M6.361,15.394A7.482,7.482,0,0,0,0,9.174,44.1,44.1,0,0,1,13.021.126a1.752,1.752,0,0,1,1.9.393,1.712,1.712,0,0,1,.408,1.916A43.26,43.26,0,0,1,6.361,15.394Z" transform="translate(18.118 2.302)" fill="#1d87c9"/>
+      <path id="Vector-4" data-name="Vector" d="M8.655,7.869,6.189,9.849a6.042,6.042,0,0,1-.974.565c0-.236-.031-.471-.047-.723A4.972,4.972,0,0,0,3.707,6.817,5.2,5.2,0,0,0,.754,5.341,6.18,6.18,0,0,0,0,5.309,3.2,3.2,0,0,1,.613,4.257L2.576,1.791A23.184,23.184,0,0,1,4.162,0a7.482,7.482,0,0,1,6.346,6.22A24.2,24.2,0,0,1,8.655,7.869Z" transform="translate(13.97 11.459)" fill="#1d87c9" opacity="0.4"/>
+      <path id="Vector-5" data-name="Vector" d="M9.08,8.787a5.125,5.125,0,0,1-3.047,1.461l-3.079.346A2.676,2.676,0,0,1,.017,7.64L.362,4.561A5.105,5.105,0,0,1,5.388.006a4.1,4.1,0,0,1,.754.031A5.153,5.153,0,0,1,9.1,1.514a5.019,5.019,0,0,1,1.461,2.874c.016.236.047.471.047.707A5.193,5.193,0,0,1,9.08,8.787Z" transform="translate(8.584 16.794)" fill="#1d87c9"/>
     </g>
   </g>
+  <rect id="vuesax_bulk_brush_Background_" data-name="vuesax/bulk/brush (Background)" width="25.765" height="25.778" transform="translate(5.118 5.12)" fill="none"/>
 </svg>

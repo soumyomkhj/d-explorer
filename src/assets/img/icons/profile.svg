@@ -1,9 +1,16 @@
-<svg id="vuesax_bulk_profile" data-name="vuesax/bulk/profile" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+<svg id="profile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36.003" height="36" viewBox="0 0 36.003 36">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.882" y1="0.882" x2="0.082" y2="0.102" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1d87c9"/>
+      <stop offset="1" stop-color="#36c6d9"/>
+    </linearGradient>
+  </defs>
   <rect id="vuesax_bulk_profile_Background_" data-name="vuesax/bulk/profile (Background)" width="36" height="36" fill="none"/>
-  <g id="vuesax_bulk_profile-2" data-name="vuesax/bulk/profile">
-    <g id="profile">
-      <path id="Vector" d="M0,7.125a7.1,7.1,0,0,0,6.945,7.11,1.21,1.21,0,0,1,.33,0h.1A7.12,7.12,0,1,0,0,7.125Z" transform="translate(10.875 3)" fill="#1d87c9" opacity="0.4"/>
-      <path id="Vector-2" data-name="Vector" d="M2.955,2.092A5.921,5.921,0,0,0,0,6.937a5.871,5.871,0,0,0,2.94,4.815,13.859,13.859,0,0,0,7.62,2.115,13.859,13.859,0,0,0,7.62-2.115,5.918,5.918,0,0,0,2.94-4.845,5.906,5.906,0,0,0-2.94-4.815A14.893,14.893,0,0,0,2.955,2.092Z" transform="translate(7.441 19.132)" fill="#1d87c9"/>
+  <g id="vuesax_bulk_profile" data-name="vuesax/bulk/profile">
+    <g id="profile-2" data-name="profile">
+      <path id="Path_7944" data-name="Path 7944" d="M36,18a95.377,95.377,0,0,1-.514,9.908,8.509,8.509,0,0,1-7.578,7.578A95.4,95.4,0,0,1,18,36a95.38,95.38,0,0,1-9.908-.514A8.509,8.509,0,0,1,.514,27.908a95.7,95.7,0,0,1,0-19.816A8.509,8.509,0,0,1,8.092.514a95.709,95.709,0,0,1,19.818,0,8.509,8.509,0,0,1,7.578,7.578A95.377,95.377,0,0,1,36,18" transform="translate(0)" opacity="0.4" fill="url(#linear-gradient)"/>
+      <path id="Vector" d="M0,5.03a4.77,4.77,0,0,0,4.339,5.02.67.67,0,0,1,.206,0H4.61A4.78,4.78,0,0,0,8.9,5.03,4.772,4.772,0,0,0,4.451,0,4.772,4.772,0,0,0,0,5.03Z" transform="translate(13.549 7.41)" fill="#1d87c9"/>
+      <path id="Vector-2" data-name="Vector" d="M2.086,1.477A4.18,4.18,0,0,0,0,4.9,4.145,4.145,0,0,0,2.076,8.3a9.785,9.785,0,0,0,5.38,1.493A9.785,9.785,0,0,0,12.835,8.3a4.178,4.178,0,0,0,2.076-3.421,4.17,4.17,0,0,0-2.076-3.4A10.515,10.515,0,0,0,2.086,1.477Z" transform="translate(10.546 18.799)" fill="#1d87c9"/>
       <path id="Vector-3" data-name="Vector" d="M36,0V36H0V0Z" fill="none" opacity="0"/>
     </g>
   </g>
