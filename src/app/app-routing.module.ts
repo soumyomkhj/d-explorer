@@ -10,6 +10,7 @@ import { CreateComponent } from './create/create.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AboutComponent } from './about/about.component';
 import { AppComponent } from './app.component';
+import { PathLocationStrategy, LocationStrategy } from '@angular/common';
 
 const routes: Routes = [
   {path: '',component: AboutComponent},
@@ -27,6 +28,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  providers: [{provide: LocationStrategy, useClass: PathLocationStrategy}]
 })
 export class AppRoutingModule {}
